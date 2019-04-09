@@ -17,26 +17,34 @@ class DetailsViewController : UIViewController {
         view.backgroundColor = .white
         setupNavigation()
         setupView()
+        
+        
     }
     
     func setupView(){ 
         view.addSubview(nameField)
-        nameField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 45))
-        nameField.leftViewMode = .always
-        //  nameField.addPaddingToTextField()
-        //        nameField.translatesAutoresizingMaskIntoConstraints = false
-        //        nameField.backgroundColor = .white
-        //        nameField.layer.cornerRadius = 8
-        //        nameField.layer.borderColor  = UIColor.lightGray.cgColor
-        //        nameField.layer.borderWidth = 1
+        
+        let viewOne = UIView()
+        let leftIcon =  UIImage(named: "like")
+        nameField.setLeftIcon(leftIcon!)
+        //   nameField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 45))
+        //  nameField.leftViewMode = .always
+        
+        view.addSubview(viewOne)
+        viewOne.backgroundColor = .red
+        viewOne.translatesAutoresizingMaskIntoConstraints = false
         self.view.addConstraints([
             //  nameField.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            nameField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            //nameField.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+            //nameField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            nameField.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
             nameField.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 20),
             nameField.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -40),
             nameField.widthAnchor.constraint(equalToConstant: 350),
-            nameField.heightAnchor.constraint(equalToConstant: 45)
+            nameField.heightAnchor.constraint(equalToConstant: 45),
+            
+            viewOne.topAnchor.constraint(equalTo: nameField.bottomAnchor, constant: 10),
+            viewOne.widthAnchor.constraint(equalToConstant: 350),
+            viewOne.heightAnchor.constraint(equalToConstant: 45),
             
             ])
     }
