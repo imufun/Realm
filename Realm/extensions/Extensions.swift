@@ -24,28 +24,30 @@ extension UITextField {
         //  self.insets = UIEdgeInsets(top: 0, left: inset, bottom: 0, right: 0)
         self.textColor = UIColor.gray
     }
+    
     func setLeftPaddingPoints(_ amount:CGFloat){
-    let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
-    self.leftView = paddingView
-    self.leftViewMode = .always
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
+        self.leftView = paddingView
+        self.leftViewMode = .always
     }
     func setRightPaddingPoints(_ amount:CGFloat) {
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
         self.rightView = paddingView
         self.rightViewMode = .always
     }
-    // text margin left
-    //    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-    //     //   return UIEdgeInsetsInsetRect(bounds, self.insets)
-    //    }
-    //    //    override func textRect(forBounds bounds: CGRect) -> CGRect {
-    //    //        return UIEdgeInsetsInsetRect(bounds, self.insets)
-    //    //    }
-    //
-    //    override func editingRect(forBounds bounds: CGRect) -> CGRect {
-    //       // return  UIEdgeInsetsInsetRect(bounds, self.insets)
-    //    }
-    //    required init?(coder aDecoder: NSCoder) {
-    //        fatalError("init(coder:) has not been implemented")
-    //    }
+    
+    /// set icon of 20x20 with left padding of 8px
+    func setLeftIcon(_ icon: UIImage) {
+        
+        let padding = 8
+        let size = 20
+        
+        let outerView = UIView(frame: CGRect(x: 0, y: 0, width: size+padding, height: size) )
+        let iconView  = UIImageView(frame: CGRect(x: padding, y: 0, width: size, height: size))
+        iconView.image = icon
+        outerView.addSubview(iconView)
+        
+        leftView = outerView
+        leftViewMode = .always
+    }
 }
