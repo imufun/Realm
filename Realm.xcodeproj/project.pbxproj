@@ -14,7 +14,9 @@
 		A18C01C0225C790900DFBE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18C01BF225C790900DFBE6C /* Assets.xcassets */; };
 		A18C01C3225C790900DFBE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18C01C1225C790900DFBE6C /* LaunchScreen.storyboard */; };
 		A18C01CB225C934400DFBE6C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01CA225C934300DFBE6C /* DetailsViewController.swift */; };
-		A18C01CE225C9F4700DFBE6C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01CD225C9F4700DFBE6C /* Extensions.swift */; };
+		A18C01CE225C9F4700DFBE6C /* sUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01CD225C9F4700DFBE6C /* sUITextField.swift */; };
+		A18C01D1225CCD2600DFBE6C /* sUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01D0225CCD2600DFBE6C /* sUIButton.swift */; };
+		A18C01D3225DE38A00DFBE6C /* sUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01D2225DE38A00DFBE6C /* sUILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +31,9 @@
 		A18C01C2225C790900DFBE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18C01C4225C790900DFBE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18C01CA225C934300DFBE6C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		A18C01CD225C9F4700DFBE6C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A18C01CD225C9F4700DFBE6C /* sUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUITextField.swift; sourceTree = "<group>"; };
+		A18C01D0225CCD2600DFBE6C /* sUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUIButton.swift; sourceTree = "<group>"; };
+		A18C01D2225DE38A00DFBE6C /* sUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		A18C01B7225C790100DFBE6C /* Realm */ = {
 			isa = PBXGroup;
 			children = (
+				A18C01CF225CCCF900DFBE6C /* CustomUI */,
 				A18C01CC225C9F1600DFBE6C /* extensions */,
 				A18C01B8225C790100DFBE6C /* AppDelegate.swift */,
 				A18C01BA225C790100DFBE6C /* ContactTableView.swift */,
@@ -89,9 +94,18 @@
 		A18C01CC225C9F1600DFBE6C /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A18C01CD225C9F4700DFBE6C /* Extensions.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		A18C01CF225CCCF900DFBE6C /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				A18C01CD225C9F4700DFBE6C /* sUITextField.swift */,
+				A18C01D0225CCD2600DFBE6C /* sUIButton.swift */,
+				A18C01D2225DE38A00DFBE6C /* sUILabel.swift */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		FC87146EB6BA50153A6C2348 /* Frameworks */ = {
@@ -224,10 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18C01D3225DE38A00DFBE6C /* sUILabel.swift in Sources */,
+				A18C01D1225CCD2600DFBE6C /* sUIButton.swift in Sources */,
 				A18C01BB225C790100DFBE6C /* ContactTableView.swift in Sources */,
 				A18C01B9225C790100DFBE6C /* AppDelegate.swift in Sources */,
 				A18C01CB225C934400DFBE6C /* DetailsViewController.swift in Sources */,
-				A18C01CE225C9F4700DFBE6C /* Extensions.swift in Sources */,
+				A18C01CE225C9F4700DFBE6C /* sUITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
