@@ -18,7 +18,6 @@
 		A18C01D1225CCD2600DFBE6C /* sUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01D0225CCD2600DFBE6C /* sUIButton.swift */; };
 		A18C01D3225DE38A00DFBE6C /* sUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C01D2225DE38A00DFBE6C /* sUILabel.swift */; };
 		A1AD64C02265C75600043E29 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD64BF2265C75600043E29 /* Person.swift */; };
-		A1AD64C22265CAEF00043E29 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD64C12265CAEF00043E29 /* Persons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		A18C01D0225CCD2600DFBE6C /* sUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUIButton.swift; sourceTree = "<group>"; };
 		A18C01D2225DE38A00DFBE6C /* sUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sUILabel.swift; sourceTree = "<group>"; };
 		A1AD64BF2265C75600043E29 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		A1AD64C12265CAEF00043E29 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				A1AD64BF2265C75600043E29 /* Person.swift */,
-				A1AD64C12265CAEF00043E29 /* Persons.swift */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -254,7 +251,6 @@
 			files = (
 				A18C01D3225DE38A00DFBE6C /* sUILabel.swift in Sources */,
 				A18C01D1225CCD2600DFBE6C /* sUIButton.swift in Sources */,
-				A1AD64C22265CAEF00043E29 /* Persons.swift in Sources */,
 				A18C01BB225C790100DFBE6C /* ContactTableView.swift in Sources */,
 				A18C01B9225C790100DFBE6C /* AppDelegate.swift in Sources */,
 				A1AD64C02265C75600043E29 /* Person.swift in Sources */,
