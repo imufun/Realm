@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UILabelC", ""]
+- ["So7UILabelC", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSTextAlignment"
+- "String"
+- "UIColor"
+- "UIFont"
+- "UILabel"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "zero"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "zero"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "black"]
+- !private ["SQ", "font"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "left"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SQ", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "black"]
+- !private ["SH", "font"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "left"]
+- !private ["SH", "text"]
+- !private ["SH", "textColor"]
+- !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "NSTextAlignment"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So15NSTextAlignmentV", "left"]
+- !private ["SY", "left"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So7UIColorC", "black"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "frame"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So7UILabelC", "CGFloat"]
+- ["So7UILabelC", "NSTextAlignment"]
+- ["So7UILabelC", "String"]
+- ["So7UILabelC", "UIColor"]
+- ["So7UILabelC", "UIFont"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "frame"]
+- ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "NSTextAlignment"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "NSTextAlignment"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIFont"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So15NSTextAlignmentV"
+- !private "SY"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/sinbad/Desktop/IOS/Realm/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/sinbad/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "37f7a5c8b37ffb5a85af15686981d9ec"

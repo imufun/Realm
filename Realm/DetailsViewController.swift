@@ -7,12 +7,12 @@
 //
 
 import UIKit
-
+import RealmSwift
 class DetailsViewController : UIViewController {
     
-    let nameField:UITextField = UITextField( placeholder: "Add New Item", radius: 12)
-    let addressField:UITextField = UITextField(placeholder : "Add New", radius: 12)
-    let countryField:UITextField = UITextField(placeholder : "Add New", radius: 12)
+    let nameField:UITextField = UITextField( placeholder: "Name", radius: 12)
+    let addressField:UITextField = UITextField(placeholder : "Address", radius: 12)
+    let countryField:UITextField = UITextField(placeholder : "Country", radius: 12)
     let saveBtn:UIButton = UIButton(type: .system)
     
     
@@ -50,6 +50,8 @@ class DetailsViewController : UIViewController {
         saveBtn.backgroundColor = .red
         saveBtn.layer.cornerRadius = 12
         saveBtn.center.y = self.view.center.y
+        saveBtn.addTarget(self, action: #selector(handleSaveData), for: .touchUpInside)
+        
         view.addSubview(viewOne)
         let textFieldWidth = 360
         
@@ -83,9 +85,6 @@ class DetailsViewController : UIViewController {
             saveBtn.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -40),
             saveBtn.widthAnchor.constraint(equalToConstant: 150),
             saveBtn.heightAnchor.constraint(equalToConstant: 45),
-            
-            
-            
             ])
     }
     
@@ -93,7 +92,7 @@ class DetailsViewController : UIViewController {
     func setupNavigation(){
         navigationItem.title = "Details"
         
-        let addBtn = UIBarButtonItem(image: UIImage(named: "like"), style: .plain, target: self, action: #selector(handleSaveBtn))
+        let addBtn = UIBarButtonItem(image: UIImage(named: "like"), style: .plain, target: self, action: #selector(handleFavItem))
         addBtn.tintColor = .white
         self.navigationItem.rightBarButtonItem = addBtn
         self.navigationController?.navigationBar.barTintColor = _ColorLiteralType(red: 0.2431372549, green: 0.7647058824, blue: 0.8392156863, alpha: 1)
@@ -101,7 +100,54 @@ class DetailsViewController : UIViewController {
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:_ColorLiteralType(red: 1, green: 1, blue: 1, alpha: 1)]
         
     }
-    @objc func handleSaveBtn(){
+    @objc func handleFavItem(){
+        print("fav")
+    }
+    
+    @objc func handleSaveData(){
+        
+        let nameTextField = self.nameField.text
+        let addTextField = self.addressField.text
+        let countryTextField = self.countryField.text
+        
+        if (nameTextField?.isEmpty)! {
+            self.nameField.layer.borderColor = UIColor.red.cgColor
+            return
+        } else {
+            self.nameField.layer.borderColor = UIColor.black.cgColor
+        }
+        if (addTextField?.isEmpty)! {
+            self.addressField.layer.borderColor = UIColor.red.cgColor
+            return
+        } else {
+            self.addressField.layer.borderColor = UIColor.black.cgColor
+        }
+        
+        if (countryTextField?.isEmpty)! {
+            self.countryField.layer.borderColor = UIColor.red.cgColor
+            return
+        } else {
+            self.countryField.layer.borderColor = UIColor.black.cgColor
+        }
+        
+        let person = Person()
+        person.setValue(self.nameField.text, forKey: "name")
+        person.setValue(self.addressField.text, forKey: "address")
+        person.setValue(self.countryField.text, forKey: "city")
+        let realm = try! Realm()
+        do {
+            try realm.write {
+                realm.add(person)
+                print("save: \(person)")
+                self.nameField.text = ""
+                self.addressField.text = ""
+                self.countryField.text = ""
+            }
+        } catch {
+            print("error")
+        }
+        
         print("save")
     }
+  
 }

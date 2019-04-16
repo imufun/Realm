@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import RealmSwift
 class ContactTableView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
@@ -15,11 +15,24 @@ class ContactTableView: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     let list = ["A", "B","C","D","E","F", "G",""]
     
+    var person = [Person]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        self.view.backgroundColor = .white
         setupNavigation()
         setupTableView()
+        
+        fetchData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        fetchData()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
     }
     func setupNavigation(){
         navigationItem.title = "Home"
@@ -33,11 +46,12 @@ class ContactTableView: UIViewController, UITableViewDelegate, UITableViewDataSo
         
     }
     
+    
     @objc func handleAddBtn(){
         let newViewController = DetailsViewController() 
         self.navigationController?.pushViewController(newViewController, animated: true)
     }
- 
+    
     let tableView : UITableView = {
         let table = UITableView()
         table.backgroundColor = .white
@@ -61,14 +75,42 @@ class ContactTableView: UIViewController, UITableViewDelegate, UITableViewDataSo
             ])
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return list.count
+        return person.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CELL, for: indexPath)
-        let data = list[indexPath.row]
-        cell.textLabel?.text = data
+        let data = person[indexPath.row]
+        cell.textLabel?.text = data.name
+      
         return cell
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        let prs = person[indexPath.row]
+        
+        let realm = try! Realm()
+        
+        do {
+            try realm.write {
+                realm.delete(prs)
+                person.remove(at: indexPath.row)
+            }
+            
+        } catch {
+            print(error)
+        }
+        
+        tableView.reloadData()
+    }
+    
+    
+    
+    func fetchData(){
+        let realm = try! Realm()
+        person = Array(realm.objects(Person.self))
+        for persons in person {
+            print(persons.name)
+        }
+    }
 }

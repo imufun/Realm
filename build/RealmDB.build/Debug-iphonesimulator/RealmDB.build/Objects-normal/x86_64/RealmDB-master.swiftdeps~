@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "5dc217a9e43f1ceb305d80eb9ab7a56a"
+build_time: [1555410749, 476084000]
+inputs:
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/CustomUI/sUILabel.swift": [1554887212, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/CustomUI/sUIButton.swift": [1554814437, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/DB/Persons.swift": [1555405334, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/ContactTableView.swift": !private [1555410747, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/AppDelegate.swift": [1554794900, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/DB/Person.swift": [1555404860, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/DetailsViewController.swift": [1555410439, 0]
+  "/Users/sinbad/Desktop/IOS/Realm/Realm/CustomUI/sUITextField.swift": [1554888274, 0]
